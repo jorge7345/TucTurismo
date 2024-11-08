@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .advertisement {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 768px) {
+    .main-container {
+      flex-direction: row; /* Coloca el contenido y la publicidad en columnas */
+    }
+  
+    .content {
+      flex: 3; /* La columna de contenido toma más espacio */
+    }
+  
+    .advertisement {
+      flex: 1; /* La columna de publicidad toma menos espacio */
+      margin-top: 0;
+      margin-left: 20px;
+    }
+  }
+  
+  /* Ocultar la columna de publicidad en pantallas pequeñas */
+  @media (max-width: 767px) {
+    .advertisement {
+      display: none;
+    }
+  }
+  
