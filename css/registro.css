@@ -1,0 +1,80 @@
+/* Inicio del formulario Crear Cuenta */
+
+/* Ajustes de ancho y visibilidad de componentes */
+.bs_crear_cuenta_layout4 .bs_mx-500 {
+    max-width: 500px;
+    display: block;
+}
+
+.bs_crear_cuenta_layout4 .bs_otro_login p {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.bs_crear_cuenta_layout5 .bs_logo_img {
+    width: 120px;
+    height: auto;
+}
+
+.bs_crear_cuenta_layout4 .bs_otro_login p span {
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: 3px;
+}
+
+.bs_crear_cuenta_layout4 .borde-gris {
+    border-color: #dbdbdb !important;
+}
+
+.bs_crear_cuenta_layout4 .bs_logo_img {
+    max-width: 115px;
+    width: 100px;
+    margin: 10px 0;
+}
+
+/* Ajustes de espaciado y tamaño */
+.bs_crear_cuenta_layout4 .ms_izquierda-15 {
+    left: 15px;
+}
+
+.bs_crear_cuenta_layout4 .btn,
+.bs_crear_cuenta_layout4 .form-control {
+    padding: 0.7rem 0.75rem;
+}
+
+/* Estilo de las imágenes del carrusel */
+.bs_crear_cuenta_layout4 .carousel-item img {
+    object-fit: cover;
+    filter: brightness(0.2);
+}
+
+/* Fuente con menor peso para algunos textos */
+.bs_crear_cuenta_layout4 .bs_fw-300 {
+    font-weight: 300;
+}
+
+/* Para dispositivos grandes */
+@media (min-width: 1200px) {
+    .bs_crear_cuenta_layout4 .bs_logo_contenedor {
+        position: absolute;
+        top: 25px;
+        left: 10px;
+    }
+}
+
+/* Para dispositivos medianos */
+@media (min-width: 768px) {
+    .bs_crear_cuenta_layout4 .md-w-65 {
+        width: 65% !important;
+    }
+
+    .bs_crear_cuenta_layout4 .md-mx-w-550 {
+        max-width: 550px;
+    }
+}
+
+/* Fin del formulario Crear Cuenta */
