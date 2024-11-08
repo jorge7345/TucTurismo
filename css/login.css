@@ -1,0 +1,94 @@
+/* Estilos Personalizados del Formulario de Login */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.bs_iniciar_sesion_layout2 {
+    width: 100vw;
+    height: 100vh;
+    background: url('https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/blockui/M261ec5fd9139384cf97b40f2c8293cf61643376699423/assets/M5aa49b1707b47e2436b2d50c4aa5e6d01643376759044/signup-layout4-img.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bs_mx-500 {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(223, 52, 52, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bs_formulario_iniciar_sesion_contenedor .bg-white {
+    box-shadow: none;
+}
+
+.bs_logo_container .bs_logo_img {
+    width: 120px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+.bs_otro_inicio_sesion p {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #bbebeb;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.bs_otro_inicio_sesion p span {
+    background: #ff3;
+    padding: 0 10px;
+    position: relative;
+    top: 3px;
+}
+
+/* Ajustes de Botones y Campos de Formulario */
+.bs_formulario_iniciar_sesion_contenedor .btn,
+.bs_formulario_iniciar_sesion_contenedor .form-control {
+    padding: 0.7rem 0.75rem;
+}
+
+/* Validaciones */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.form-text.text-danger {
+    display: none;
+}
+
+.form-text.text-danger.d-block {
+    display: block;
+}
+
+/* Media Query para Grandes Dispositivos */
+@media(min-width:992px) {
+    .bs_mx-500 {
+        max-width: 500px;
+    }
+}
+
+/* Estilo adicional para que los mensajes de error sean más visibles */
+#login-infotext {
+    color: #dc3545;
+}
+
+/* Estilos para los botones de login con Google y Facebook */
+.bs_iniciar_sesion_google .btn-outline-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.bs_iniciar_sesion_google i {
+    margin-right: 8px;
+}
